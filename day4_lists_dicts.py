@@ -1,9 +1,9 @@
-# def add_and_remove(items, to_add, to_remove):
-#     items.append(to_add)
-#     items.remove(to_remove)
-#     return items
+def add_and_remove(items, to_add, to_remove):
+    items.append(to_add)
+    items.remove(to_remove)
+    return items
 
-# print(add_and_remove([1, 2, 3], 4, 2))
+print(add_and_remove([1, 2, 3], 4, 2))
 
 def get_value(data, key):
     if key in data:
